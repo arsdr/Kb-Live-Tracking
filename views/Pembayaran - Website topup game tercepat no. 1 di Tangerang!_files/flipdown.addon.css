@@ -1,0 +1,83 @@
+.flipdown.flipdown__theme-light .rotor-group-heading:before {
+    display: none;
+}
+.flipdown {
+    height: 30px;
+    display: inline-block;
+}
+@media (max-width: 550px) {
+    .flipdown {
+        width: 300px;
+        height: 50px;
+    }
+}
+.flipdown .rotor {
+    font-size: 18px;
+}
+.flipdown .rotor,
+.flipdown .rotor-leaf,
+.flipdown .rotor-leaf-front,
+.flipdown .rotor-leaf-rear,
+.flipdown .rotor-top,
+.flipdown .rotor-bottom,
+.flipdown .rotor:after {
+    width: 26px;
+}
+
+.flipdown .rotor-group {
+    padding-right: 10px;
+}
+
+.flipdown .rotor-group:nth-child(n + 2):nth-child(-n + 3):before,
+.flipdown .rotor-group:nth-child(n + 2):nth-child(-n + 3):after {
+    left: 76px;
+    display: none;
+}
+
+.flipdown .rotor-group:nth-child(n + 2):nth-child(-n + 3):before {
+    bottom: 19px;
+    height: 8px;
+    width: 8px;
+    display: none;
+}
+
+.flipdown .rotor-group:nth-child(n + 2):nth-child(-n + 3):after {
+    bottom: 35px;
+    height: 8px;
+    width: 8px;
+    display: none;
+}
+
+.flipdown .rotor-leaf-front,
+.flipdown .rotor-top {
+    line-height: 40px;
+}
+
+.flipdown .rotor-leaf,
+.flipdown .rotor {
+    height: 40px;
+}
+
+.flipdown .rotor-leaf-front,
+.flipdown .rotor-leaf-rear,
+.flipdown .rotor-top,
+.flipdown .rotor-bottom,
+.flipdown .rotor:after {
+    height: 20px;
+}
+.flipdown.flipdown__theme-light .rotor, .flipdown.flipdown__theme-light .rotor-top, .flipdown.flipdown__theme-light .rotor-leaf-front {
+    background: #c21010;
+    color: #fff;
+    font-size: 22px;
+}
+.flipdown.flipdown__theme-light .rotor-bottom, .flipdown.flipdown__theme-light .rotor-leaf-rear {
+    color: #fff;
+    background: #e64848;
+}
+.flipdown.flipdown__theme-light .rotor:after {
+    display: none;
+}
+#flipdown {
+    padding-top: 4px;
+    padding-left: 8px;
+}

@@ -1,0 +1,83 @@
+.flash {
+    margin-bottom: 24px;
+}
+.flash-title {
+    margin-bottom: 12px;
+}
+.flash-title i {
+    font-size: 24px;
+    margin-right: 6px;
+    animation: bolt 3s linear infinite;
+}
+.flash-title span {
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.flash-box {
+    padding: 18px;
+    background: #35373a;
+    border-radius: 8px;
+}
+.flash-expired {
+    margin-bottom: 20px;
+}
+.flash-item {
+    background-size: cover;
+    padding: 118px 12px 12px 19px;
+    border-radius: 12px;
+    max-width: 200px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+.flash-item:before {
+    background: #16161647;
+    content: ' ';
+    display: inline-block;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    border-radius: 12px;
+    z-index: 1;
+}
+.flash-item h6 {
+    position: relative;
+    z-index: 2;
+}
+.flash-item h5 {
+    background: #ffc0bb;
+    color: #F44336;
+    display: block;
+    width: fit-content;
+    padding: 4px 8px;
+    font-size: 14px;
+    border-radius: 6px;
+    position: relative;
+    z-index: 2;
+}
+.flash-item del {
+    color: #e56056;
+    font-weight: 600;
+    position: relative;
+    z-index: 2;
+}
+@media screen AND (max-width: 460px) {
+    .flash-item {
+        padding-top: 84px;
+    }
+}
+@keyframes bolt {
+    0%,19.999%,22%,62.999%,64%,64.999%,70%,to {
+        opacity: .99;
+        filter: drop-shadow(0 0 1px rgba(252,211,77)) drop-shadow(0 0 15px rgba(245,158,11)) drop-shadow(0 0 1px rgba(252,211,77))
+    }
+
+    20%,21.999%,63%,63.999%,65%,69.999% {
+        opacity: .4;
+        filter: none
+    }
+}

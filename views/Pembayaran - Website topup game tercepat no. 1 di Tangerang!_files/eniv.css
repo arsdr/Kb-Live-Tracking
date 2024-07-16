@@ -1,0 +1,40 @@
+.eniv-sales-proof {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: #515356;
+    padding: 14px;
+    border-radius: 12px;
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    z-index: 10000;
+    max-width: 340px;
+    transition: .6s;
+    margin-bottom: -200px;
+}
+.eniv-sales-proof.show {
+    margin-bottom: 0;
+}
+.eniv-sales-proof img {
+    width: 48px;
+    margin-right: 12px;
+}
+.eniv-sales-proof-content h1 {
+    font-size: 13px;
+    margin: 0;
+    line-height: 13px;
+    margin-bottom: 2px;
+    display: inline-block;
+}
+.eniv-sales-proof-content span {
+    font-size: 13px;
+    display: inline-block;
+    margin-bottom: 4px;
+}
+.eniv-sales-proof-content h2 {
+    font-size: 13px;
+    line-height: 13px;
+    margin-bottom: 2px;
+    display: block;
+}

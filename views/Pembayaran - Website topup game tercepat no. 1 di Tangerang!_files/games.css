@@ -1,0 +1,147 @@
+.games-bg {
+    margin-top: 62px;
+    height: 340px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.games-bg-2 {
+    height: 140px;
+    border-bottom: 1px solid rgb(74 81 87);
+    background-color: rgb(52 55 59/1);
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgMTkyMCAxMDAwIj48c3R5bGUgdHlwZT0idGV4dC9jc3MiPnBhdGh7b3BhY2l0eTouMTtjbGlwLXBhdGg6dXJsKCNjbGlwUGF0aCk7ZmlsbDp1cmwoI2xpbmVhckdyYWRpZW50KTt9PC9zdHlsZT48Y2xpcFBhdGggaWQ9ImNsaXBQYXRoIj48cmVjdCB3aWR0aD0iMTkyMCIgaGVpZ2h0PSIxMDAwIi8+PC9jbGlwUGF0aD48bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhckdyYWRpZW50IiB4MT0iMCUiIHkxPSIwJSIgeDI9IjkwJSIgeTI9IjAlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9ImhzbCgwIDAlIDEwMCUvMSkiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9ImhzbCgwIDAlIDEwMCUvMCkiLz48L2xpbmVhckdyYWRpZW50PjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE5MjAsMTAwMClzY2FsZSgtMSwtMSkiPjxwYXRoIGQ9Ik0xMzg0LjUgMzQzLjJMMTkyLjcgMTUzNWwtMjEzLjUtM0wxMzgzIDEyOC4ybDEuNSAyMTV6Ii8+PHBhdGggZD0iTTE5MTkuNyA0NDguM0wxMzU5IDEwMDlsLTEwMC40LTEuNEwxOTE5IDM0Ny4xbC43IDEwMS4yeiIvPjxwYXRoIGQ9Ik0xMTc2LjcgNTE0LjNMNjE2IDEwNzVsLTEwMC40LTEuNEwxMTc2IDQxMy4xbC43IDEwMS4yeiIvPjxwYXRoIGQ9Ik02NDQuNyA0NTcuM0w4NCAxMDE4bC0xMDAuNC0xLjRMNjQ0IDM1Ni4xbC43IDEwMS4yeiIvPjxwYXRoIGQ9Ik0xMzg3LjcgNDQ4LjNMODI3IDEwMDlsLTEwMC40LTEuNEwxMzg3IDM0Ny4xbC43IDEwMS4yeiIvPjxwYXRoIGQ9Ik0xMjUwLjEgNDkzLjhsLTU0NSA1NDUtNTIuNyA0My42IDY0MS45LTY0MS45LTQ0LjIgNTMuM3oiLz48cGF0aCBkPSJNODkxLjEgNjM5LjFMLTc3OCAyMzA4LjNsLTI5OC45LTQuMkw4ODkgMzM4LjFsMi4xIDMwMXoiLz48cGF0aCBkPSJNMTg3MC40IDQxOS44TC0yOC44IDIzMTlsLTM0MC4xLTQuOEwxODY4IDc3LjNsMi40IDM0Mi41eiIvPjxwYXRoIGQ9Ik05MDguNCA0MzYuOEwtOTkwLjggMjMzNmwtMzQwLjEtNC44TDkwNiA5NC4zbDIuNCAzNDIuNXoiLz48cGF0aCBkPSJNMTYzMi40IDUxNS44TC0yNjYuOCAyNDE1bC0zNDAuMS00LjhMMTYzMCAxNzMuM2wyLjQgMzQyLjV6Ii8+PHBhdGggZD0iTTExNzYuMyA1NjcuMUwtMTQ0NS42IDMxODlsLTQ2OS41LTYuNkwxMTczIDk0LjNsMy4zIDQ3Mi44eiIvPjxwYXRoIGQ9Ik0xNDI3LjMgNTgwLjFMLTExOTQuNiAzMjAybC00NjkuNS02LjZMMTQyNCAxMDcuM2wzLjMgNDcyLjh6Ii8+PHBhdGggZD0iTTE2NDkuNSA4ODAuMkw0NTcuNyAyMDcybC0yMTMuNS0zTDE2NDggNjY1LjJsMS41IDIxNXoiLz48cGF0aCBkPSJNNjc1LjggNTIyLjJsLTI2MjEuOSAyNjIxLjktNDY5LjQtNi42TDY3Mi41IDQ5LjRsMy4zIDQ3Mi44eiIvPjxwYXRoIGQ9Ik0yNTk1LjkgNTIyLjJMLTI2IDMxNDQuMWwtNDY5LjUtNi42TDI1OTIuNiA0OS40bDMuMyA0NzIuOHoiLz48L2c+PC9zdmc+);
+    background-repeat: repeat-x;
+    background-position: top;
+    background-size: clamp(60em,100rem,100em) auto,cover;
+    margin-bottom: 32px;
+}
+.games-img {
+    perspective: 25em;
+    position: absolute;
+    margin-top: -116px;
+}
+.games-img img {
+    width: 240px;
+    height: 240px;
+    position: relative;
+    border-radius: 1rem;
+    transform: rotateY(20deg) rotateX(-4deg)!important;
+    transform-origin: left center;
+}
+.games-detail {
+    padding-left: 241px;
+    padding-top: 28px;
+}
+.games-detail h5 {
+    font-size: 22px;
+    font-weight: 600;
+}
+.games-detail p {
+    font-size: 16px;
+}
+.games-emblem {
+    white-space: normal;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+.emblem-item {
+    display: flex;
+    margin-right: 12px;
+}
+.emblem-svg {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    line-height: 17px;
+    border-radius: 50%;
+    margin-top: 0;
+    float: left;
+    margin-right: 9px;a
+}
+.emblem-svg span {
+    font-weight: 600;
+}
+.emblem-svg svg {
+    width: 14px;
+}
+.emblem-svg.bg-secondary {
+    background: #5e666e !important;
+}
+.emblem-svg.bg-secondary svg {
+    fill: #fde047;
+}
+.card-head {
+    padding: 10px 16px;
+    background: linear-gradient(to bottom,#788189, #4a5157);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 12px 12px 0 0;
+}
+.card-head span {
+    background: linear-gradient(to bottom,#fb923c, #ea580c);
+    display: inline-block;
+    font-size: 20px;
+    padding: 7px 16px;
+    float: left;
+    border-radius: 11px 0 0;
+    margin-left: -16px;
+    margin-top: -10px;
+    margin-right: 12px;
+    margin-bottom: -20px;
+}
+.nominal-price {
+    font-size: 10px;
+    text-align: left;
+    color: #484646;
+    font-weight: 600;
+}
+.name-prod {
+    color: #333;
+    text-align: left;
+    font-size: 11px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+.icon-diamond {
+    bottom: 0%;
+    right: 20%;
+    position: absolute;
+    filter: grayscale(1);
+}
+.accordion>.card {
+    box-shadow: none !important;
+}
+.collapse-card-header {
+    border-radius: 8px 8px 0 0;
+    cursor: pointer;
+    padding: 10px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    background: #4a5157;
+    color: #fff;
+}
+.accordion>.card .card-body {
+    background: #4a5157;
+}
+.accordion>.card .card-footer {
+    background: #9da5ab;
+    border-radius: 0 0 8px 8px;
+    margin-bottom: 8px;
+    padding: 4px 8px !important;
+}
+.accordion>.card .card-footer img {
+    height: 13px;
+}
+@media (min-width: 320px) AND (max-width: 480px)  {
+    .img-game {
+        margin-top: -110px !important;
+    }
+}
+    
+@media (min-width: 768px) AND (max-width: 1024px)  {
+    .img-game {
+        margin-top: -110px !important;
+    }
+}
